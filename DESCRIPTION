@@ -1,7 +1,7 @@
 Package: CTE
 Type: Package
 Title: Constant Temperature Equivalent
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person(
     given = c("Donald", "T."),
     family = "McKnight",
@@ -10,7 +10,6 @@ Authors@R: person(
     comment = c(affiliation = "Savanna Field Station"))
 Date: 2026-01-18
 Maintainer: Donald T. McKnight <donald.mcknight@my.jcu.edu.au>
-Organization: Savanna Field Station
 Description: Under natural conditions, nest temperatures fluctuate daily around a mean
     value, whereas in captivity they are often held constant. The Constant
     Temperature Equivalent is designed to bridge the gap between the two by
