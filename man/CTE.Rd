@@ -26,11 +26,11 @@ Calculate movements in a stream network for multiple individuals
 \details{
 CTE takes input values for a given day and returns the CTE using the formulas in Georges (1989). It automatically selects the appropriate formula based on whether the minimum temperature (M-R) is less than T0. T0 may not be precisely known in all cases, but should be estimated based on knowledge of the species being studied. If you think your nest never dropped below T0 (i.e., there was not point at which development was not occurring) then set T0 lower than your minimum temperature. If M+R < T0 (i.e., all temps on a given day were less than T0, then T0 is returned as CTE). Because this function operates on data from a single day, in most cases you will want to run it within a looping function. See Vignette for details on the formulas and examples.
 }
+\examples{
+CTE(M=20, R = 6, T0=10)
+}
 \references{
-Georges, A. (1989)
-
-
-#' Smith, A. B. and Jones, C. D. (2019).
+Georges, A. (1989).
 *Female turtles from hot nests: is it duration of incubation or proportion of development at high temperatures that matters?*.
-Oecologia, **81**, 323-328.
+Oecologia, **81**, 323-328
 }

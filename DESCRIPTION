@@ -4,7 +4,7 @@ Title: Constant Temperature Equivalent
 Version: 0.1.0
 Author: Donald T. McKnight
 Date: 2026-01-18
-Maintainer: <donald.mcknight@my.jcu.edu.au>
+Maintainer: Donald T. McKnight <donald.mcknight@my.jcu.edu.au>
 Organization: Savanna Field Station
 Description: CTE provides a simple function for calculating the Constant Temeprature Equivalent (CTE) for daily nest incubation data.
 License: GPL (>= 3)
