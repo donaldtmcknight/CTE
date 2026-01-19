@@ -37,4 +37,4 @@ cte.res <- CTE(M=20, R = 6, T0=10)
 
 ## Citaiton
 
-Cite as: McKnight, D.T. 2026. Constant Temperature Equivalent (CTE). R package version 0.1.0
+Cite as: McKnight, D.T. 2026. CTE: Constant Temperature Equivalent. R package version 0.1.0
