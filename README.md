@@ -1,0 +1,34 @@
+# Constant Temperature Equivalent (CTE)
+
+An R package for calculating the Constant Temperature Equivalent (CTE) for nest incubation data
+
+## Descritpion
+
+This package provides a simple function (CTE) for calculating CTE based on the formulas developed in Georges A (1989) Female turtles from hot nests: is it duration of incubation or proportion of development at high temperatures that matters? Oecologia 81:323–328.
+
+See the vignette for full details on the formulas and search algorithms.
+
+## Installation
+
+Copy and paste the code below to install the package
+
+```
+install.packages("devtools") #Installs devtools (if not already installed)
+devtools::install_github("donaldtmcknight/CTE") #Installs CTE
+```
+
+## Running the package
+
+The pacakge includes a single function: CTE.
+
+It requires three pieces of data:
+
+* * *M* * = mean temperature
+* * *R* * = the maximum deviation of temperatures from * *M* * (e.g., if the range of temperatures is 14‒16 and * *M* * = 20, then * *R* * = 6)
+* * *T* *<sup>0<sup> = the temperature below which no development occurs (this value should be based on a general knowledge of the species being studied)
+ 
+You can optionally include * *t* *, a vlue between 0 and 2pi which sets the starting seed for the iterative calcuations, and max.it, which sets the maximum number of iterations the function will try (default is 10,000).
+
+## Citaiton
+
+Cite as: McKnight, D.T. 202c. Constant Temperature Equivalent (CTE). R package version 0.1.0
