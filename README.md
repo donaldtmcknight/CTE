@@ -23,11 +23,11 @@ The pacakge includes a single function: CTE.
 
 It requires three pieces of data:
 
-* * *M* * = mean temperature
-* * *R* * = the maximum deviation of temperatures from * *M* * (e.g., if the range of temperatures is 14‒16 and * *M* * = 20, then * *R* * = 6)
-* * *T* *<sup>0<sup> = the temperature below which no development occurs (this value should be based on a general knowledge of the species being studied)
+* *M* = mean temperature
+* *R* = the maximum deviation of temperatures from *M* (e.g., if the range of temperatures is 14‒16 and *M* = 20, then *R* = 6)
+* *T*<sub>0</sub> = the temperature below which no development occurs (this value should be based on a general knowledge of the species being studied)
  
-You can optionally include * *t* *, a vlue between 0 and 2pi which sets the starting seed for the iterative calcuations, and max.it, which sets the maximum number of iterations the function will try (default is 10,000).
+You can optionally include *t*, a vlue between 0 and 2pi which sets the starting seed for the iterative calcuations, and max.it, which sets the maximum number of iterations the function will try (default is 10,000).
 
 ## Citaiton
 
