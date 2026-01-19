@@ -17,12 +17,35 @@ Unknown, possibly misspelled, fields in DESCRIPTION:
   'Organization'
 
 No Authors@R field in DESCRIPTION.
-Please add one.
 
 **Response:**  
 Corrected spelling errors in the DESCRIPTION file and reformatted the
 Description field so it does not start with the package name.  
 Removed the non-standard `Organization` field.  
 Added an `Authors@R` field with the appropriate author and maintainer
-information.  
-Added a LICENSE file.
+information.
+
+---
+
+### Issue 2
+
+NOTE regarding license declaration:
+
+License components with restrictions and base license permitting such:
+  GPL (>= 3) + file LICENSE
+
+**Response:**  
+Removed the LICENSE file containing the full GPL text and updated the
+DESCRIPTION file to use the standard `License: GPL (>= 3)` declaration.
+
+---
+
+### Issue 3
+
+NOTE:
+Non-standard file/directory found at top level:
+  'cran-comments.md'
+
+**Response:**  
+The file `cran-comments.md` is included intentionally to document responses
+to CRAN review comments for this resubmission.
