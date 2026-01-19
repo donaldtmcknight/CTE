@@ -31,4 +31,4 @@ You can optionally include *t*, a vlue between 0 and 2pi which sets the starting
 
 ## Citaiton
 
-Cite as: McKnight, D.T. 202c. Constant Temperature Equivalent (CTE). R package version 0.1.0
+Cite as: McKnight, D.T. 2026. Constant Temperature Equivalent (CTE). R package version 0.1.0
