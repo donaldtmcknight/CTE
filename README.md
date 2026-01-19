@@ -32,7 +32,7 @@ You can optionally include *t*, a vlue between 0 and 2pi which sets the starting
 Example:
 
 ```
-cte.res <- CTE(M=20, R = 6, T0=10)
+CTE(M=20, R = 6, T0=10)
 ```
 
 ## Citaiton
