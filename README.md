@@ -29,6 +29,12 @@ It requires three pieces of data:
  
 You can optionally include *t*, a vlue between 0 and 2pi which sets the starting seed for the iterative calcuations, and max.it, which sets the maximum number of iterations the function will try (default is 10,000).
 
+Example:
+
+```
+cte.res <- CTE(M=20, R = 6, T0=10)
+```
+
 ## Citaiton
 
 Cite as: McKnight, D.T. 2026. Constant Temperature Equivalent (CTE). R package version 0.1.0
