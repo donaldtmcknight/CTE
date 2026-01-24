@@ -1,4 +1,4 @@
-# Constant Temperature Equivalent (CTE)
+# CTE: Constant Temperature Equivalent
 
 An R package for calculating the Constant Temperature Equivalent (CTE) for nest incubation data
 
