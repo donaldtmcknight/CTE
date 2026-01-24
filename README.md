@@ -10,7 +10,12 @@ See the vignette for full details on the formulas and search algorithms.
 
 ## Installation
 
-Copy and paste the code below to install the package
+The current stable version is available on CRAN
+```
+install.packages("CTE")
+```
+
+Alternatively, to install from GitHub, copy and paste the code below to install the package
 
 ```
 install.packages("devtools") #Installs devtools (if not already installed)
@@ -37,4 +42,4 @@ CTE(M=20, R = 6, T0=10)
 
 ## Citaiton
 
-Cite as: McKnight, D.T. 2026. CTE: Constant Temperature Equivalent. R package version 0.1.0
+Cite as: McKnight, D.T. 2026. CTE: Constant Temperature Equivalent. R package version 0.1.3
